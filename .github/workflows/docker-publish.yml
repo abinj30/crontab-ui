@@ -60,7 +60,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/abinj30/crontab-ui:main
           cache-from: type=gha
           cache-to: type=gha,mode=max
      
